@@ -1,0 +1,23 @@
+function bouncer(arr) {
+
+
+  
+  let test = arr;
+  let aux = arr.length;
+  let another = [];
+  let inc = 0;
+
+  for (let x = 0; x <= aux; x++) {
+      if (Boolean(test[x]) != false) {
+        console.log("test[x]: ", test[x], " | x: ", x);
+        console.log("test: ", test);
+        another[inc] = test[x];
+        inc++;
+        console.log("another: ", another, " | inc: " ,inc);
+      }
+  }
+
+  return another;
+}
+
+bouncer([7, "ate", "", false, 9]);
