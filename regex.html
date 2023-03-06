@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regular Expressions in JavaScript</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		table {
+			border-collapse: collapse;
+			margin: auto;
+		}
+		th, td {
+			border: 1px solid black;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Regular Expressions in JavaScript</h1>
+	<p>Regular expressions are a powerful tool for working with text in JavaScript. They allow you to search for and manipulate text based on patterns. Here's a list of some of the most commonly used regular expressions in JavaScript:</p>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Expression</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>/pattern/</td>
+				<td>A pattern to match a specific sequence of characters</td>
+			</tr>
+			<tr>
+				<td>/^pattern/</td>
+				<td>Matches the pattern only at the beginning of a string</td>
+			</tr>
+			<tr>
+				<td>/pattern$/</td>
+				<td>Matches the pattern only at the end of a string</td>
+			</tr>
+			<tr>
+				<td>/[abc]/</td>
+				<td>Matches any one of the characters inside the brackets</td>
+			</tr>
+			<tr>
+				<td>/[^abc]/</td>
+				<td>Matches any character not inside the brackets</td>
+			</tr>
+			<tr>
+				<td>/.*/</td>
+				<td>Matches any character zero or more times</td>
+			</tr>
+			<tr>
+				<td>/[a-z]/</td>
+				<td>Matches any lowercase letter</td>
+			</tr>
+			<tr>
+				<td>/[A-Z]/</td>
+				<td>Matches any uppercase letter</td>
+			</tr>
+			<tr>
+				<td>/[0-9]/</td>
+				<td>Matches any digit</td>
+			</tr>
+			<tr>
+				<td>/\s/</td>
+				<td>Matches any whitespace character</td>
+			</tr>
+			<tr>
+				<td>/\S/</td>
+				<td>Matches any non-whitespace character</td>
+			</tr>
+			<tr>
+				<td>/\d/</td>
+				<td>Matches any digit</td>
+			</tr>
+			<tr>
+				<td>/\D/</td>
+				<td>Matches any non-digit character</td>
+			</tr>
+			<tr>
+				<td>/\w/</td>
+				<td>Matches any word character (letters, digits, and underscores)</td>
+			</tr>
+			<tr>
+				<td>/\W/</td>
+				<td>Matches any non-word character</td>
+			</tr>
+			<tr>
+				<td>/x+/</td>
+				<td>Matches the character 'x' one or more times</td>
+			</tr>
+			<tr>
+				<td>/x*/</td>
+				<td>Matches the character 'x' zero or more times</td>
+			</tr>
+			<tr>
+				<td>/x?/</td>
+				<td>Matches the character 'x' zero or one time</td>
+			</tr>
+			<tr>
+				<td>/x{5}/</td>
+				<td>Matches the character 'x' exactly 5 times</td>
+			</tr>
+			<tr>
+				<td>/x{2,5}/</td>
+				<td>Matches the character 'x' between 2 and 5 times</td>
+			</tr>
+			<tr>
+				<td>/x{2,}/</td>
+				<td>Matches the character 'x' 2 or more times</td>
+			</tr>
+			<tr>
+				<td>/(x)/</td>
+				<td>Captures the character 'x' and stores it in a group</td>
+			</tr>
+			<tr>
+				<td>/(?:x)/</td>
+				<td>Matches the character 'x' without storing it in a group</td>
+			</tr>
+			<tr>
+				<td>/(x)(y)/</td>
+				<td>Captures the characters 'x' and 'y' and stores them in separate groups</td>
+			</tr>
+			<tr>
+				<td>/x(?=y)/</td>
+				<td>Matches the character 'x' only if it is followed by the character 'y'</td>
+			</tr>
+			<tr>
+				<td>/x(?!y)/</td>
+				<td>Matches the character 'x' only if it is not followed by the character 'y'</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<p>To learn more about regular expressions in JavaScript, check out the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">MDN Web Docs</a>.</p>
+	
+</body>
+</html>
